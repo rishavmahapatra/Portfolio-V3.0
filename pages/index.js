@@ -65,7 +65,7 @@ export default function Home() {
               <AiFillLinkedin />
               <AiFillYoutube />
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-48 h-48 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-64 h-64 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
@@ -91,10 +91,10 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-slate-600 flex-1">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white ">
+                FrontEnd Development
               </h3>
-              <p className="py-2">
+              <p className="py-2 dark:text-white">
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
@@ -106,10 +106,10 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
               <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
+                FullStack Development
               </h3>
-              <p className="py-2">
+              <p className="py-2 dark:text-white">
                 Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
@@ -121,8 +121,8 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
-              <p className="py-2">
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">Consulting</h3>
+              <p className="py-2 dark:text-white">
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
