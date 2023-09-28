@@ -101,7 +101,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600 dark:text-teal-400">Frontend Tools I Use</h4>
               <p className="text-gray-800 py-1 dark:text-white-600">ReactJS</p>
               <p className="text-gray-800 py-1 dark:text-white-600">NextJS</p>
-              <p className="text-gray-800 py-1 dark:text-white-600">Tailwind</p>
+              <p className="text-gray-800 py-1 ">Tailwind</p>
               <p className="text-gray-800 py-1 dark:text-white-600">Firebase</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
