@@ -31,7 +31,7 @@ export default function Home() {
       <main className=" bg-white px-5 dark:bg-gray-900 md:px-10 lg:px-20">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-sans text-xl">mySpace</h1>
+            <h1 className="font-sans text-xl">MySpace</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -91,46 +91,46 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-slate-600 flex-1">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white ">
-                FrontEnd Development
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-600 ">
+                Front End Development
               </h3>
-              <p className="py-2 dark:text-white">
+              <p className="py-2 dark:text-gray-600">
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
               <h4 className="py-4 text-teal-600 dark:text-teal-400">Frontend Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-white">ReactJS</p>
-              <p className="text-gray-800 py-1 dark:text-white">NextJS</p>
-              <p className="text-gray-800 py-1 dark:text-white">Tailwind</p>
-              <p className="text-gray-800 py-1 dark:text-white">Firebase</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">ReactJS</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">NextJS</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Tailwind</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Firebase</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
               <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                FullStack Development
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-600">
+                Full Stack Development
               </h3>
-              <p className="py-2 dark:text-white">
+              <p className="py-2 dark:text-gray-600">
                 Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600 dark:text-teal-400">Backend Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-white">Spring</p>
-              <p className="text-gray-800 py-1 dark:text-white">Spring-Boot</p>
-              <p className="text-gray-800 py-1 dark:text-white">Mysql</p>
-              <p className="text-gray-800 py-1 dark:text-white">Azure</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Spring</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Spring-Boot</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Mysql</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Azure</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">Consulting</h3>
-              <p className="py-2 dark:text-white">
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-600">Consulting</h3>
+              <p className="py-2 dark:text-gray-600">
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
               <h4 className="py-4 text-teal-600 dark:text-teal-400">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-white">Photoshop</p>
-              <p className="text-gray-800 py-1 dark:text-white">Illustrator</p>
-              <p className="text-gray-800 py-1 dark:text-white">Figma</p>
-              <p className="text-gray-800 py-1 dark:text-white">Indesign</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Illustrator</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Figma</p>
+              <p className="text-gray-800 py-1 dark:text-gray-600">Indesign</p>
             </div>
           </div>
         </section>
