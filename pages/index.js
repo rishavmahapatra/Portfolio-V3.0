@@ -31,7 +31,7 @@ export default function Home() {
       <main className=" bg-white px-5 dark:bg-gray-900 md:px-10 lg:px-20">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-sans text-xl">my portfolio</h1>
+            <h1 className="font-sans text-xl">mySpace</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -50,7 +50,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-7xl">
               Rishav Mahapatra
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
@@ -73,7 +73,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">ABOUT ME</h3>
-            <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
               Hi there 👋, I am <span className="text-red-500">Rishav Mahapatra </span> . I am a
               full-stack web developer based in Pune who is passionate about
               building exceptional web experiences. Welcome to my personal
@@ -82,7 +82,7 @@ export default function Home() {
               new things and explore different technologies. I am currently
               working as a full-stack developer at TCS. I have worked on many real-life projects and have
               experience in different technologies. I am always open to new
-              opportunities and challenges. I am also a competitive programmer.
+              opportunities and challenges.
             </p>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I have a wide range of skills, including Programming, Frontend and Backend Development.
@@ -98,11 +98,11 @@ export default function Home() {
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600 dark:text-teal-400">Frontend Tools I Use</h4>
+              <p className="text-gray-800 py-1 dark:text-white">ReactJS</p>
+              <p className="text-gray-800 py-1 dark:text-white">NextJS</p>
+              <p className="text-gray-800 py-1 dark:text-white">Tailwind</p>
+              <p className="text-gray-800 py-1 dark:text-white">Firebase</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
               <Image src={code} width={100} height={100} />
@@ -113,11 +113,11 @@ export default function Home() {
                 Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600 dark:text-teal-400">Backend Tools I Use</h4>
+              <p className="text-gray-800 py-1 dark:text-white">Spring</p>
+              <p className="text-gray-800 py-1 dark:text-white">Spring-Boot</p>
+              <p className="text-gray-800 py-1 dark:text-white">Mysql</p>
+              <p className="text-gray-800 py-1 dark:text-white">Azure</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
               <Image src={consulting} width={100} height={100} />
@@ -126,11 +126,11 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600 dark:text-teal-400">Design Tools I Use</h4>
+              <p className="text-gray-800 py-1 dark:text-white">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-white">Illustrator</p>
+              <p className="text-gray-800 py-1 dark:text-white">Figma</p>
+              <p className="text-gray-800 py-1 dark:text-white">Indesign</p>
             </div>
           </div>
         </section>
