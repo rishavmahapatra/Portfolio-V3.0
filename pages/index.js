@@ -91,18 +91,18 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-slate-600 flex-1">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-600 ">
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white-600 ">
                 Front End Development
               </h3>
-              <p className="py-2 dark:text-gray-600">
+              <p className="py-2 dark:text-white-600">
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
               <h4 className="py-4 text-teal-600 dark:text-teal-400">Frontend Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-600">ReactJS</p>
-              <p className="text-gray-800 py-1 dark:text-gray-600">NextJS</p>
-              <p className="text-gray-800 py-1 dark:text-gray-600">Tailwind</p>
-              <p className="text-gray-800 py-1 dark:text-gray-600">Firebase</p>
+              <p className="text-gray-800 py-1 dark:text-white-600">ReactJS</p>
+              <p className="text-gray-800 py-1 dark:text-white-600">NextJS</p>
+              <p className="text-gray-800 py-1 dark:text-white-600">Tailwind</p>
+              <p className="text-gray-800 py-1 dark:text-white-600">Firebase</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
               <Image src={code} width={100} height={100} />
