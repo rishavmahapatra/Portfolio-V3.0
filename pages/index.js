@@ -131,7 +131,6 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-white">Illustrator</p>
               <p className="text-gray-800 py-1 dark:text-white">Figma</p>
               <p className="text-gray-800 py-1 dark:text-white">Indesign</p>
-            </div>
           </div>
         </section>
       </main>
