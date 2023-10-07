@@ -31,7 +31,7 @@ export default function Home() {
       <main className=" bg-white px-5 dark:bg-gray-900 md:px-10 lg:px-20">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-sans text-xl">MySpace</h1>
+            <h1 className="font-sans text-xl"></h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
