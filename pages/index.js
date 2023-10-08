@@ -74,7 +74,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">ABOUT ME</h3>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
-              Hi there 👋, I am <span className="text-red-500">Rishav Mahapatra </span> . I am a
+              Hi there 👋, I am Rishav Mahapatra </span> . I am a
               full-stack web developer based in Pune who is passionate about
               building exceptional web experiences. Welcome to my personal
               space. Here you will find my Skills, blogs, and other stuff that
