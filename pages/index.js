@@ -72,7 +72,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="fomt-mono text-3xl py-1 dark:text-white ">About Me</h3>
+            <h3 className="fomt-mono text-3xl py-1 dark:text-white md:text-5xl">About Me</h3>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
               Hi there 👋, I am Rishav Mahapatra. I am a
               full-stack web developer based in Pune who is passionate about
@@ -84,12 +84,13 @@ export default function Home() {
               experience in different technologies. I am always open to new
               opportunities and challenges.
             </p>
+                <h3 className="text-3xl py-1 dark:text-white md:text-5xl ">Skills</h3>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
               I have a wide range of skills, including Programming, Frontend and Backend Development.
             </p>
           </div>
           <div className="lg:flex gap-10">
-                <h3 className="text-3xl py-1 dark:text-white ">Skills</h3>
+                
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-slate-600 flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white ">
