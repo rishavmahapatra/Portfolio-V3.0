@@ -72,12 +72,12 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">ABOUT ME</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
-              Hi there 👋, I am Rishav Mahapatra </span> . I am a
+              Hi there 👋, I am Rishav Mahapatra. I am a
               full-stack web developer based in Pune who is passionate about
               building exceptional web experiences. Welcome to my personal
-              space. Here you will find my Skills, blogs, and other stuff that
+              space. Here you will find my Skills, work-experience, and other stuff that
               I am working on. I am a continous learner who loves problem-solving, learn
               new things and explore different technologies. I am currently
               working as a full-stack developer at TCS. I have worked on many real-life projects and have
