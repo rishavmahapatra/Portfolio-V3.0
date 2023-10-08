@@ -84,7 +84,7 @@ export default function Home() {
               experience in different technologies. I am always open to new
               opportunities and challenges.
             </p>
-                <h3 className="text-4xl py-1 dark:text-white md:text-5xl md:pt-2 ">Skills</h3>
+                <h3 className="text-4xl mt-3 py-1 dark:text-white md:text-5xl  ">Skills</h3>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
               I have a wide range of skills, including Programming, Frontend and Backend Development.
             </p>
