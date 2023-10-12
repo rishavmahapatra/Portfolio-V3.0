@@ -94,7 +94,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-slate-600 flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white ">
-                Front End Development
+                FrontEnd Development
               </h3>
               <p className="py-2 dark:text-white">
                 Creating elegant designs suited for your needs following core
@@ -109,7 +109,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Back End Development
+                BackEnd Development
                </h3>
               <p className="py-2 dark:text-white">
                 Do you have an idea for your next great website? Lets make it a
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-600 flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">Fundamentals</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">Other Dev Tools</h3>
               <p className="py-2 dark:text-white">
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
