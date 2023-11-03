@@ -75,7 +75,7 @@ export default function Home() {
             <h3 className="fomt-mono text-4xl py-1 dark:text-white ">About Me</h3>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
               Hi there 👋, I am Rishav Mahapatra. I am a
-              full-stack web developer based in Pune who is passionate about
+              full-stack developer based in Pune who is passionate about
               building exceptional web experiences. Welcome to my personal
               space. Here you will find my Skills, work-experience, and other stuff that
               I am working on. I am a continous learner who loves problem-solving, learn
