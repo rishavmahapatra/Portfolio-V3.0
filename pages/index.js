@@ -26,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white px-5 dark:bg-neutral-900 md:px-10 lg:px-20">
-        <section className="min-h-screen">
+        <section className="min-h-full sm:min-h-screen">
           <nav className="py-10 mb-10 flex justify-between dark:text-white">
             <h1 className="font-sans text-xl"></h1>
             <motion.ul className="flex items-center"
@@ -52,7 +52,7 @@ export default function Home() {
               </li>
             </motion.ul>
           </nav>
-          <motion.div className="mt-16 text-center"
+          <motion.div className="mt-14 text-center"
             initial={{ x:-100,opacity: 0 }}
             whileInView={{ x:0, opacity: 1 }}
             transition={{duration:0.5}}
