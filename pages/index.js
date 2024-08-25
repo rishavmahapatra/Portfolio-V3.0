@@ -52,7 +52,7 @@ export default function Home() {
               </li>
             </motion.ul>
           </nav>
-          <motion.div className="sm:mt-1 text-center"
+          <motion.div className="mt-16 text-center"
             initial={{ x:-100,opacity: 0 }}
             whileInView={{ x:0, opacity: 1 }}
             transition={{duration:0.5}}
@@ -76,7 +76,7 @@ export default function Home() {
                 <Image src={dev} layout="fill" objectFit="cover" />
               
             </motion.div>
-            <motion.div className="my-10 py-2 max-w-xs mx-auto text-4xl md:text-6xl flex justify-center gap-7 sm:gap-14 text-gray-700 dark:text-gray-300">
+            <motion.div className="my-6 py-2 max-w-xs mx-auto text-4xl md:text-6xl flex justify-center gap-8 sm:gap-14 text-gray-700 dark:text-gray-300">
               <AiFillTwitterCircle className="hover:scale-110 hover:text-indigo-400"/>
               <AiFillLinkedin className="hover:scale-110 hover:text-indigo-400" />
               <AiFillGithub className="hover:scale-110 hover:text-indigo-400" />
@@ -88,7 +88,7 @@ export default function Home() {
         <section>
           <div>
             
-                <h3 className="text-4xl mt-6 py-1 dark:text-white">Skills</h3>
+                <h3 className="text-4xl py-1 dark:text-white">Skills</h3>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
               I have a wide range of skills, including Programming, Frontend and Backend Development.
             </p>
