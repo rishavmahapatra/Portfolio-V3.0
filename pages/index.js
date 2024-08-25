@@ -48,27 +48,28 @@ export default function Home() {
               </li>
             </motion.ul>
           </nav>
-          <motion.div className="text-center p-10 py-10"
+          <motion.div className="sm:mt-24 text-center"
             initial={{ x:-100,opacity: 0 }}
             whileInView={{ x:0, opacity: 1 }}
             transition={{delay:0.1, duration:0.7}}
           >
-            <h2 className=" text-5xl mx-auto antialiased py-2 text-teal-600 font-medium dark: text-indigo-400 md:text-5xl">
+            <h2 className=" text-2xl md:text-5xl mx-auto antialiased py-2 text-teal-600 font-medium dark: text-indigo-400 ">
               Hi👋, I am Rishav Mahapatra
             </h2>
-            <h3 className="max-w-lg mx-auto antialiased text-xl py-2 dark:text-teal-200 md:text-3xl hover:bg-gray-800 hover:text-teal-300  hover:scale-110">
-            &lt;&gt; I am a Front-End Developer &lt;/&gt;
+            <h3 className="text-lg md:text-3xl max-w-xl mx-auto antialiased  py-2 dark:text-teal-200  hover:scale-110">
+            &lt;&gt; I am a Front-End Web Developer &lt;/&gt;
             </h3>
             {/* <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Developer providing services for programming and design content
               needs. Join me down below!
             </p> */}
-            <motion.div className="text-6xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <motion.div className="max-w-xs mx-auto text-2xl md:text-5xl flex justify-center gap-7 sm:gap-14 py-3 text-gray-700 hover:text-gray-100 hover:bg-indigo-700 hover:rounded-full hover:scale-110 dark:text-gray-300">
               <AiFillTwitterCircle />
               <AiFillLinkedin />
               <AiFillGithub />
             </motion.div>
-            <motion.div className="mt-4 mx-auto bg-gradient-to-b from-indigo-400 rounded-full w-64 h-64 relative overflow-hidden  "
+            {/* bg-gradient-to-b from-indigo-400 */}
+            <motion.div className="mt-4 mx-auto rounded-full w-52 h-52 md:w-64 md:h-64 relative overflow-hidden  "
                 initial={{ y:-1000  ,opacity: 0 }}
                 animate={{ y:0, opacity: 1 }}
                 transition={{delay:0.1, type:"spring",stiffness:200}}
