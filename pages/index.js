@@ -51,7 +51,7 @@ export default function Home() {
           <motion.div className="sm:mt-24 text-center"
             initial={{ x:-100,opacity: 0 }}
             whileInView={{ x:0, opacity: 1 }}
-            transition={{delay:0.1, duration:0.7}}
+            transition={{duration:0.5}}
           >
             <h2 className=" text-2xl md:text-5xl mx-auto antialiased py-2 text-teal-600 font-medium dark: text-indigo-400 ">
               Hi👋, I am Rishav Mahapatra
