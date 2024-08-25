@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+import dev from "../public/dev-ed-wave.jpeg";
 import code from "../public/code.png";
 import pro from "../public/1.png";
 
@@ -25,14 +25,18 @@ export default function Home() {
         <meta name="description" content="Front-End Developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" bg-white px-5 dark:bg-gray-900 md:px-10 lg:px-20">
+      <main className=" bg-white px-5 dark:bg-neutral-900 md:px-10 lg:px-20">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-10 mb-10 flex justify-between dark:text-white">
             <h1 className="font-sans text-xl"></h1>
             <motion.ul className="flex items-center"
-            initial={{ y:-100,opacity: 0 }}
-            animate={{ y:1, opacity: 1 }}
-            transition={{duration:0.5}}
+            // initial={{ y:-100,opacity: 0 }}
+            // animate={{ y:1, opacity: 1 }}
+            // transition={{duration:0.5}}
+
+            initial={{ y:100 }}
+            animate={{ y:0 }}
+            transition={{ type:"spring",stiffness:110}}
             >
               <li>
                 <BsFillMoonStarsFill
@@ -42,57 +46,48 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-b from-cyan-600 text-teal-200 to-indigo-500  px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-b from-cyan-600 to-indigo-500 font-mono text-teal-200   px-4 py-2 border-none rounded-md ml-8"
                   href="https://drive.google.com/file/d/1FVSz3BrtfaAqCgS_7-yT-ed62HEjWO-l/view?usp=sharing"
-                >Resume ⬇</a>
+                >Resume</a>
               </li>
             </motion.ul>
           </nav>
-          <motion.div className="sm:mt-24 text-center"
+          <motion.div className="sm:mt-1 text-center"
             initial={{ x:-100,opacity: 0 }}
             whileInView={{ x:0, opacity: 1 }}
             transition={{duration:0.5}}
           >
-            <h2 className=" text-2xl md:text-5xl mx-auto antialiased py-2 text-teal-600 font-medium dark: text-indigo-400 ">
+            <h2 className=" text-2xl md:text-5xl mx-auto max-w-2xl antialiased py-2 text-teal-600 font-semibold dark: text-indigo-400 ">
               Hi👋, I am Rishav Mahapatra
             </h2>
-            <h3 className="text-lg md:text-3xl max-w-xl mx-auto antialiased  py-2 dark:text-teal-200  hover:scale-110">
-            &lt;&gt; I am a Front-End Web Developer &lt;/&gt;
+            <h3 className="animate-pulse text-lg md:text-3xl max-w-xl mx-auto antialiased  py-2 font-mono font-medium dark:text-teal-200  hover:scale-110">
+            I am a Front-End Developer
             </h3>
             {/* <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Developer providing services for programming and design content
               needs. Join me down below!
             </p> */}
-            <motion.div className="max-w-xs mx-auto text-2xl md:text-5xl flex justify-center gap-7 sm:gap-14 py-3 text-gray-700 hover:text-gray-100 hover:bg-indigo-700 hover:rounded-full hover:scale-110 dark:text-gray-300">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillGithub />
-            </motion.div>
-            {/* bg-gradient-to-b from-indigo-400 */}
-            <motion.div className="mt-4 mx-auto rounded-full w-52 h-52 md:w-64 md:h-64 relative overflow-hidden  "
-                initial={{ y:-1000  ,opacity: 0 }}
+             {/* bg-gradient-to-b from-indigo-400 */}
+            <motion.div className=" mt-4 mx-auto bg-transparent rounded-full w-52 h-52 md:w-64 md:h-64 relative overflow-hidden"
+                initial={{ y:-500 ,opacity: 0 }}
                 animate={{ y:0, opacity: 1 }}
-                transition={{delay:0.1, type:"spring",stiffness:200}}
+                transition={{ type:"spring",stiffness:190}}
             >
-              <Image src={deved} layout="fill" objectFit="cover" />
+                <Image src={dev} layout="fill" objectFit="cover" />
               
             </motion.div>
+            <motion.div className="my-10 py-2 max-w-xs mx-auto text-4xl md:text-6xl flex justify-center gap-7 sm:gap-14 text-gray-700 dark:text-gray-300">
+              <AiFillTwitterCircle className="hover:scale-110 hover:text-indigo-400"/>
+              <AiFillLinkedin className="hover:scale-110 hover:text-indigo-400" />
+              <AiFillGithub className="hover:scale-110 hover:text-indigo-400" />
+            </motion.div>
+           
+            
           </motion.div>
         </section>
         <section>
           <div>
-            <h3 className="font-mono text-4xl py-1 dark:text-white ">About Me</h3>
-            <p className="fo-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
-              Hi there 👋, I am Rishav Mahapatra. I am a
-              full-stack developer based in Pune who is passionate about
-              building exceptional web experiences. Welcome to my personal
-              space. Here you will find my Skills, work-experience, and other stuff that
-              I am working on. I am a continous learner who loves problem-solving, learn
-              new things and explore different technologies. I am currently
-              working as a full-stack developer at TCS. I have worked on many real-life projects and have
-              experience in different technologies. I am always open to new
-              opportunities and challenges.
-            </p>
+            
                 <h3 className="text-4xl mt-6 py-1 dark:text-white">Skills</h3>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
               I have a wide range of skills, including Programming, Frontend and Backend Development.
@@ -102,7 +97,7 @@ export default function Home() {
                 
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-slate-600 flex-1">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white ">
+              <h3 className=" text-lg font-medium pt-8 pb-2 dark:text-white ">
                 Front-End Development
               </h3>
               <p className="py-2 dark:text-white">
