@@ -101,7 +101,7 @@ export default function Home() {
           <div>
             <h3 className="text-4xl py-1 dark:text-white">Skills</h3>
             <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
-              PS- I've gained these skills after years of experience and not just after completing one project/tutorial.
+              PS- I have gained these skills after years of experience and not just after completing one project/tutorial.
             </p>
           </div>
           <div className="lg:flex gap-10">
