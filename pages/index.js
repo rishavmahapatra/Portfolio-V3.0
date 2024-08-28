@@ -62,7 +62,7 @@ export default function Home() {
             className="text-center"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.4 }}
+            // transition={{ duration: 0.4 }}
           >
             <h2 className=" text-2xl md:text-5xl mx-auto max-w-2xl antialiased py-2 text-teal-700 font-semibold dark:text-indigo-400 ">
               Hi👋, I am Rishav Mahapatra
@@ -109,7 +109,7 @@ export default function Home() {
               className="text-left shadow-lg p-10 rounded-xl my-10 bg-cyan-200 dark:bg-slate-600 flex-1"
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.4 }}
+              // transition={{ duration: 0.4 }}
             >
               <Image src={design} width={100} height={100} />
               <h3 className=" text-lg font-medium pt-8 pb-2 dark:text-white ">
@@ -131,7 +131,7 @@ export default function Home() {
               className=" shadow-lg p-10 rounded-xl my-10 bg-teal-200 dark:bg-slate-600 flex-1"
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.4 }}
+              // transition={{ duration: 0.4 }}
             >
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
@@ -153,7 +153,7 @@ export default function Home() {
               className="shadow-lg p-10 rounded-xl my-10 bg-blue-200 dark:bg-slate-600 flex-1"
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.4 }}
+              // transition={{ duration: 0.4 }}
             >
               <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
