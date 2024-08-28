@@ -56,12 +56,12 @@ export default function Home() {
               </li>
             </motion.ul>
           </nav>
-        <section className="mt-28 sm:mt-10 justify-center">
+        <section className="mt-14 sm:mt-32 lg:mt-24 justify-center">
           
           <motion.div
-            className="relative flex flex-col justify-center text-center"
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
+            className="text-center"
+            initial={{ x: -100}}
+            whileInView={{ x: 0}}
             transition={{ duration: 0.4 }}
           >
             <h2 className=" text-2xl md:text-5xl mx-auto max-w-2xl antialiased py-2 text-teal-700 font-semibold dark:text-indigo-400 ">
@@ -77,8 +77,8 @@ export default function Home() {
             {/* bg-gradient-to-b from-indigo-400 */}
             <motion.div
               className=" m-4 mx-auto bg-transparent rounded-full w-52 h-52 md:w-64 md:h-64 relative overflow-hidden"
-              initial={{ y:-500 ,opacity: 0 }}
-              animate={{ y:0, opacity: 1 }}
+              initial={{ y:-500 }}
+              animate={{ y:0}}
               transition={{ delay:0.6,type:"spring",stiffness:190}}
             >
               <Image src={dev} layout="fill" objectFit="cover" />
@@ -107,11 +107,11 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <motion.div
               className="text-left shadow-lg p-10 rounded-xl my-10 bg-cyan-200 dark:bg-slate-600 flex-1"
-              initial={{ x: 100, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
+              initial={{ x: 100}}
+              whileInView={{ x: 0}}
               transition={{ duration: 0.4 }}
             >
-              {/* <Image src={design} width={100} height={100} /> */}
+              <Image src={design} width={100} height={100} />
               <h3 className=" text-lg font-medium pt-8 pb-2 dark:text-white ">
                 Front-End Development
               </h3>
@@ -129,11 +129,11 @@ export default function Home() {
             </motion.div>
             <motion.div
               className=" shadow-lg p-10 rounded-xl my-10 bg-teal-200 dark:bg-slate-600 flex-1"
-              initial={{ x: 100, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
+              initial={{ x: 100}}
+              whileInView={{ x: 0}}
               transition={{ duration: 0.4 }}
             >
-              {/* <Image src={code} width={100} height={100} /> */}
+              <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Back-End Development
               </h3>
@@ -151,11 +151,11 @@ export default function Home() {
             </motion.div>
             <motion.div
               className="shadow-lg p-10 rounded-xl my-10 bg-blue-200 dark:bg-slate-600 flex-1"
-              initial={{ x: 100, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
+              initial={{ x: 100}}
+              whileInView={{ x: 0}}
               transition={{ duration: 0.4 }}
             >
-              {/* <Image src={consulting} width={100} height={100} /> */}
+              <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Other Dev Tools
               </h3>
