@@ -77,9 +77,9 @@ export default function Home() {
             {/* bg-gradient-to-b from-indigo-400 */}
             <motion.div
               className=" m-4 mx-auto bg-transparent rounded-full w-52 h-52 md:w-64 md:h-64 relative overflow-hidden"
-              // initial={{ y:-500 ,opacity: 0 }}
-              // animate={{ y:0, opacity: 1 }}
-              // transition={{ type:"spring",stiffness:190}}
+              initial={{ y:-500 ,opacity: 0 }}
+              animate={{ y:0, opacity: 1 }}
+              transition={{ delay:0.6,type:"spring",stiffness:190}}
             >
               <Image src={dev} layout="fill" objectFit="cover" />
             </motion.div>
@@ -87,7 +87,7 @@ export default function Home() {
               className="cursor-pointer my-6 py-2 max-w-xs mx-auto text-4xl md:text-6xl flex justify-center gap-8 sm:gap-14 text-gray-700 dark:text-gray-300"
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ delay:0.5,duration: 0.4 }}
+              transition={{ delay:0.4,duration: 0.4 }}
             >
               <AiFillTwitterCircle className="hover:scale-110 hover:text-indigo-400" />
               <AiFillLinkedin className="hover:scale-110 hover:text-indigo-400" />
@@ -109,7 +109,7 @@ export default function Home() {
               className="text-left shadow-lg p-10 rounded-xl my-10 bg-cyan-200 dark:bg-slate-600 flex-1"
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.4 }}
             >
               {/* <Image src={design} width={100} height={100} /> */}
               <h3 className=" text-lg font-medium pt-8 pb-2 dark:text-white ">
@@ -131,7 +131,7 @@ export default function Home() {
               className=" shadow-lg p-10 rounded-xl my-10 bg-teal-200 dark:bg-slate-600 flex-1"
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.4 }}
             >
               {/* <Image src={code} width={100} height={100} /> */}
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
@@ -153,7 +153,7 @@ export default function Home() {
               className="shadow-lg p-10 rounded-xl my-10 bg-blue-200 dark:bg-slate-600 flex-1"
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.4 }}
             >
               {/* <Image src={consulting} width={100} height={100} /> */}
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
