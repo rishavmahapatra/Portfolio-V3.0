@@ -56,7 +56,7 @@ export default function Home() {
               </li>
             </motion.ul>
           </nav>
-        <section className="mt-28 sm:mt-14 lg:mt-28 justify-center">
+        <section className="mt-32 sm:mt-14 lg:mt-28 justify-center">
           
           <motion.div
             className="text-center"
