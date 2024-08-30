@@ -27,7 +27,7 @@ export default function Home() {
 
       <main className="overflow-hidden bg-stone-100 px-5 dark:bg-stone-900 md:px-10 lg:px-20">
         <div className="min-h-screen">
-          <nav className="fixed top-0 left-0 right-0 z-10  backdrop-blur-md shadow-indigo-200 shadow-sm p-3 flex justify-end lg:justify-between font-mono text-teal-900  dark:text-teal-200">
+          <nav className="fixed top-0 left-0 right-0 z-10  backdrop-blur-xl md:shadow-indigo-200 shadow-sm p-3 flex justify-end lg:justify-between font-mono text-teal-900  dark:text-teal-200">
             <ul className="hidden lg:flex">
               <li>
                 <a
@@ -68,7 +68,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-b from-indigo-500  to-indigo-800 font-mono text-teal-200  px-3 py-1 border-none rounded-md mr-6"
+                  className="bg-gradient-to-b from-indigo-500  to-indigo-800 font-mono text-teal-200  px-3 py-1 border-none rounded-md md:mr-4"
                   href="https://drive.google.com/file/d/1FVSz3BrtfaAqCgS_7-yT-ed62HEjWO-l/view?usp=sharing"
                 >
                   Resume
