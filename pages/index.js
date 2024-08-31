@@ -31,7 +31,7 @@ export default function Home() {
       </Head>
 
       <main className="overflow-hidden bg-neutral-100 px-5 dark:bg-neutral-900 md:px-10 lg:px-20">
-        <div className="lg:h-screen">
+        <div className="min-h-screen">
           <nav className="fixed top-0 left-0 right-0 z-10 backdrop-blur-xl md:dark:shadow-stone-800 shadow-sm p-3 flex justify-end lg:justify-between font-mono text-teal-900  dark:text-teal-200">
             <ul className="hidden lg:flex">
               <li>
