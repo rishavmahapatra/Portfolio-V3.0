@@ -106,7 +106,7 @@ export default function Home() {
               // animate = {{ y:[200,0],scale:[1.5,1],opacity:[0,1]}} 
               transition={{duration:0.4}}
             >
-              <h2 className="text-sm md:text-3xl max-w-3xl mx-auto  antialiased py-2  font-semibold text-teal-800 dark:text-indigo-400 ">
+              <h2 className="text-md md:text-3xl max-w-3xl mx-auto  antialiased py-2  font-semibold text-teal-800 dark:text-indigo-400 ">
                 Hi👋, I am Rishav Mahapatra
               </h2>
               <h3 className="text-md md:text-3xl mx-auto max-w-3xl antialiased  py-2 font-mono font-medium text-cyan-900 dark:text-teal-200 ">
