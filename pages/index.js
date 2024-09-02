@@ -90,7 +90,7 @@ export default function Home() {
                 <a
                   className="bg-teal-800 dark:bg-indigo-500  text-teal-200  px-3 py-1 border-none rounded-md md:mr-4"
                   href="https://drive.google.com/file/d/1FVSz3BrtfaAqCgS_7-yT-ed62HEjWO-l/view?usp=sharing"
-                  target="_blank" rel="noopener"
+                  target="_blank" rel="noreferrer"
                 >
                   Resume
                 </a>
@@ -122,8 +122,8 @@ export default function Home() {
                 </div>
                 <div className="cursor-pointer my-6 py-2 max-w-xs mx-auto text-4xl md:text-5xl flex justify-center gap-6 text-gray-700 dark:text-gray-300">
                 {/* hover:text-indigo-500 */}
-                  <a href="https://www.linkedin.com/in/rishav-mahapatra/" target="_blank" rel="noopener"><AiFillLinkedin className="hover:scale-110" /></a>
-                  <a href="https://github.com/rishavmahapatra/" target="_blank" rel="noopener"><AiFillGithub className="hover:scale-110" /></a>
+                  <a href="https://www.linkedin.com/in/rishav-mahapatra/" target="_blank" rel="noreferrer"><AiFillLinkedin className="hover:scale-110" /></a>
+                  <a href="https://github.com/rishavmahapatra/" target="_blank" rel="noreferrer"><AiFillGithub className="hover:scale-110" /></a>
                 </div>
               </motion.div>
             </motion.div>
