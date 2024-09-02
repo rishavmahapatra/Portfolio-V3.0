@@ -63,20 +63,7 @@ export default function Home() {
                   Skills
                 </a>
               </li>
-              <li>
-                <a
-                  className="cursor-pointer p-3 border-none rounded-md "
-                  onClick={() => {
-                    const anchor = document.querySelector("#skills");
-                    anchor.scrollIntoView({
-                      behavior: "smooth",
-                      block: "start",
-                    });
-                  }}
-                >
-                 Projects
-                </a>
-              </li>
+              
             </ul>
 
             <ul className="flex items-center gap-4">
@@ -103,15 +90,15 @@ export default function Home() {
               className="text-center mt-40 "
               initial = {{ y:200,scale:0}}
               animate = {{ y:0,scale:1}} 
-              // animate = {{ y:[200,0],scale:[1.5,1],opacity:[0,1]}} 
+              // animate = {{ y:[200,0],scale:[0,1]}} 
               transition={{duration:0.4}}
             >
-              <h2 className="text-md md:text-3xl max-w-3xl mx-auto  antialiased py-2  font-semibold text-teal-800 dark:text-indigo-400 ">
+              <h3 className="text-lg md:text-3xl max-w-3xl mx-auto  antialiased py-2  font-semibold text-teal-800 dark:text-indigo-400 ">
                 Hi👋, I am Rishav Mahapatra
-              </h2>
-              <h3 className="text-md md:text-3xl mx-auto max-w-3xl antialiased  py-2 font-mono font-medium text-cyan-900 dark:text-teal-200 ">
-                I am a Front-End/UI Developer
               </h3>
+              <h2 className="text-lg md:text-3xl mx-auto max-w-3xl antialiased  py-2 font-mono font-medium text-cyan-900 dark:text-teal-200 ">
+                I am a Front-End/UI Developer
+              </h2>
               <motion.div
                 initial={{ y:100,opacity: 0 }}
                 animate = {{ y:0,opacity:1 }}
@@ -132,10 +119,10 @@ export default function Home() {
 
         <section id="skills" className="text-left scroll-m-14">
           <div>
-            <h3 className="text-4xl text-left py-1 text-cyan-900 dark:text-teal-200">Skills</h3>
-            {/* <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
+            <h3 className="text-3xl text-left py-1 text-cyan-900 dark:text-teal-200">Skills</h3>
+            <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
               I love to try out different libraries and frameworks available in the web. I follow different Dev communities and channels to keep myself updated with latest Tech trends. These are some skill set which I most frequently use.
-            </p> */}
+            </p>
           </div>
           <div className="lg:flex gap-11">
             <motion.div
