@@ -31,8 +31,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-neutral-100 px-5 dark:bg-neutral-900 md:px-10 lg:px-20">
-        <div className="min-h-screen">
+      <main className="  bg-neutral-100 px-5 dark:bg-neutral-900 md:px-10 lg:px-20">
+        <div className="lg:min-h-screen">
           <nav className="fixed top-0 left-0 right-0 z-10 backdrop-blur-xl md:dark:shadow-stone-800 shadow-sm p-3 flex justify-end lg:justify-between font-mono text-teal-900  dark:text-teal-200">
             <ul className="hidden lg:flex">
               <li>
@@ -98,7 +98,7 @@ export default function Home() {
             </ul>
           </nav>
           {/* mt-48 sm:mt-28 lg:mt-36 */}
-          <section id="home" className="absolute top-0 left-0 right-0 ">
+          <section id="home" className="">
             <motion.div
               className="text-center mt-40 "
               initial = {{ y:200,scale:0}}
@@ -130,12 +130,12 @@ export default function Home() {
           </section>
         </div>
 
-        <section id="skills" className=" text-left scroll-m-14">
+        <section id="skills" className="text-left scroll-m-14">
           <div>
             <h3 className="text-4xl text-left py-1 text-cyan-900 dark:text-teal-200">Skills</h3>
-            <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
+            {/* <p className="font-sans text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-xl">
               I love to try out different libraries and frameworks available in the web. I follow different Dev communities and channels to keep myself updated with latest Tech trends. These are some skill set which I most frequently use.
-            </p>
+            </p> */}
           </div>
           <div className="lg:flex gap-11">
             <motion.div
