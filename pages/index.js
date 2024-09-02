@@ -31,8 +31,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-neutral-100 px-5 dark:bg-neutral-900 md:px-10 lg:px-20">
-        <div className="lg:h-screen ">
+      <main className="overflow-hidden bg-neutral-100 px-5 dark:bg-neutral-900">
+        <div className="lg:min-h-screen ">
           <nav className="fixed top-0 left-0 right-0 z-10 backdrop-blur-xl md:dark:shadow-stone-800 shadow-sm p-3 flex justify-end md:justify-between font-mono text-teal-900  dark:text-teal-200">
             <ul className="hidden md:flex">
               <li>
@@ -87,7 +87,7 @@ export default function Home() {
           {/* mt-48 sm:mt-28 lg:mt-36 */}
           <section id="home" className="lg:absolute top-0 left-0 right-0">
             <motion.div
-              className="text-center mt-40 "
+              className="text-center mt-16 md:mt-40 "
               initial = {{ y:200,scale:0}}
               animate = {{ y:0,scale:1}} 
               // animate = {{ y:[200,0],scale:[0,1]}} 
