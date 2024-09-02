@@ -27,14 +27,14 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Rishav</title>
-        <meta name="description" content="Front-End Developer Portfolio" />
+        <meta name="description" content="Front-End Dev Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="  bg-neutral-100 px-5 dark:bg-neutral-900 md:px-10 lg:px-20">
-        <div className="lg:min-h-screen">
-          <nav className="fixed top-0 left-0 right-0 z-10 backdrop-blur-xl md:dark:shadow-stone-800 shadow-sm p-3 flex justify-end lg:justify-between font-mono text-teal-900  dark:text-teal-200">
-            <ul className="hidden lg:flex">
+      <main className="bg-neutral-100 px-5 dark:bg-neutral-900 md:px-10 lg:px-20">
+        <div className="lg:h-screen ">
+          <nav className="fixed top-0 left-0 right-0 z-10 backdrop-blur-xl md:dark:shadow-stone-800 shadow-sm p-3 flex justify-end md:justify-between font-mono text-teal-900  dark:text-teal-200">
+            <ul className="hidden md:flex">
               <li>
                 <a
                   className="cursor-pointer p-3 border-none rounded-md"
@@ -98,7 +98,7 @@ export default function Home() {
             </ul>
           </nav>
           {/* mt-48 sm:mt-28 lg:mt-36 */}
-          <section id="home" className="">
+          <section id="home" className="lg:absolute top-0 left-0 right-0">
             <motion.div
               className="text-center mt-40 "
               initial = {{ y:200,scale:0}}
