@@ -12,7 +12,7 @@ import shadcn from "../public/shadcn-ui.svg"
 
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import dev from "../public/rishav.png";
+import dev from "../public/12.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -32,7 +32,7 @@ export default function Home() {
       </Head>
 
       <main className="overflow-hidden bg-neutral-100 px-5 dark:bg-neutral-900">
-        <div className="lg:min-h-screen ">
+        <div >
           <nav className="fixed top-0 left-0 right-0 z-10 backdrop-blur-xl md:dark:shadow-stone-800 shadow-sm p-3 flex justify-end md:justify-between font-mono text-teal-900  dark:text-teal-200">
             <ul className="hidden md:flex">
               <li>
@@ -85,18 +85,18 @@ export default function Home() {
             </ul>
           </nav>
           {/* mt-48 sm:mt-28 lg:mt-36 */}
-          <section id="home" className="lg:absolute top-0 left-0 right-0">
+          <section id="home" className="scroll-m-32">
             <motion.div
-              className="text-center mt-16 md:mt-40 "
+              className="text-center mt-20 lg:mt-40 lg:mb-24"
               initial = {{ y:200,scale:0}}
               animate = {{ y:0,scale:1}} 
               // animate = {{ y:[200,0],scale:[0,1]}} 
               transition={{duration:0.4}}
             >
-              <h3 className="text-lg md:text-3xl max-w-3xl mx-auto  antialiased py-2  font-semibold text-teal-800 dark:text-indigo-400 ">
+              <h3 className="text-md md:text-4xl max-w-3xl mx-auto antialiased py-2  font-semibold text-teal-800 dark:text-purple-300 ">
                 Hi👋, I am Rishav Mahapatra
               </h3>
-              <h2 className="text-lg md:text-3xl mx-auto max-w-3xl antialiased  py-2 font-mono font-medium text-cyan-900 dark:text-teal-200 ">
+              <h2 className="text-lg md:text-5xl mx-auto max-w-3xl tracking-tight antialiased py-2 font-semibold text-cyan-900 dark:text-teal-200 ">
                 I am a Front-End/UI Developer
               </h2>
               <motion.div
@@ -104,8 +104,8 @@ export default function Home() {
                 animate = {{ y:0,opacity:1 }}
                 transition={{ delay: 0.4 }}
               >
-                <div className=" m-4 mx-auto bg-transparent rounded-full w-52 h-52 md:w-64 md:h-64 relative overflow-hidden">
-                  <Image src={dev} className="object-cover " />
+                <div className=" m-4 mx-auto bg-gradient-to-b from-blue-400 to-purple-200 ring-2 rounded-full w-52 h-52 md:w-64 md:h-64 relative overflow-hidden">
+                  <Image src={dev} alt="profile-pic" className="objext-cover" />
                 </div>
                 <div className="cursor-pointer my-6 py-2 max-w-xs mx-auto text-4xl md:text-5xl flex justify-center gap-6 text-gray-700 dark:text-gray-300">
                 {/* hover:text-indigo-500 */}
@@ -130,9 +130,10 @@ export default function Home() {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
+              // transition={{ duration: 0.3 }}
             >
              {/* <Image src={code} width={100} height={100} />  */}
-              <h3 className=" text-md font-medium pt-5 pb-2 dark:text-teal-300 ">
+              <h3 className=" text-lg md:text-xl font-medium py-2 my-2 dark:text-teal-300 ">
                 Programming
               </h3>
               <p className="flex  mx-auto justify-left items-center text-gray-800 py-1 dark:text-cyan-300">{<SiJavascript  className="rounded-md bg-zinc-700 text-yellow-400 text-3xl mr-5" />}JAVASCRIPT </p>
@@ -145,9 +146,10 @@ export default function Home() {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
+              // transition={{ duration: 0.3 }}
             >
               {/* <Image src={design} width={100} height={100} /> */}
-              <h3 className="text-md font-medium pt-5 pb-2   dark:text-teal-300">
+              <h3 className="text-lg md:text-xl font-medium py-2 my-2  dark:text-teal-300">
                 Front-End Frameworks
               </h3>
               
@@ -162,9 +164,10 @@ export default function Home() {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: false }}
+              // transition={{ duration: 0.3 }}
             >
               {/* <Image src={consulting} width={100} height={100} /> */}
-              <h3 className="text-md font-medium pt-5 pb-2 dark:text-teal-300">
+              <h3 className="text-lg md:text-xl font-medium py-2 my-2 dark:text-teal-300">
                 Other Dev Tools
               </h3>
               <p className="flex  mx-auto justify-left items-center text-gray-800 py-1 dark:text-cyan-300">{<Image src={framer}  className="bg-zinc-900 rounded-md border-zinc-900 border-4 w-7  mr-5" />}FRAMER-MOTION </p>
