@@ -87,7 +87,7 @@ export default function Home() {
           {/* mt-48 sm:mt-28 lg:mt-36 */}
           <section id="home" className="scroll-m-32">
             <motion.div
-              className="text-center mt-20 md:mt-32 lg:mt-40 lg:mb-24"
+              className="text-center mt-20 md:mt-10 lg:mt-40 lg:mb-24"
               initial = {{ y:200,scale:0}}
               animate = {{ y:0,scale:1}} 
               // animate = {{ y:[200,0],scale:[0,1]}} 
@@ -130,7 +130,7 @@ export default function Home() {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
-              // transition={{ duration: 0.3 }}
+              transition={{ duration: 0.4}}
             >
              {/* <Image src={code} width={100} height={100} />  */}
               <h3 className=" text-lg md:text-xl font-medium py-2 my-2 dark:text-teal-300 ">
@@ -146,7 +146,7 @@ export default function Home() {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
-              // transition={{ duration: 0.3 }}
+              transition={{ duration: 0.4}}
             >
               {/* <Image src={design} width={100} height={100} /> */}
               <h3 className="text-lg md:text-xl font-medium py-2 my-2  dark:text-teal-300">
@@ -164,7 +164,7 @@ export default function Home() {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
-              // transition={{ duration: 0.3 }}
+              transition={{ duration: 0.4}}
             >
               {/* <Image src={consulting} width={100} height={100} /> */}
               <h3 className="text-lg md:text-xl font-medium py-2 my-2 dark:text-teal-300">
