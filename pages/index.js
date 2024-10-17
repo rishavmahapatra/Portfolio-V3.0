@@ -87,7 +87,7 @@ export default function Home() {
           {/* mt-48 sm:mt-28 lg:mt-36 */}
           <section id="home" className="scroll-m-32">
             <motion.div
-              className="text-center mt-20 md:mt-0 xl:mt-40 lg:mb-24"
+              className="text-center mt-20 xl:mt-40 lg:mb-24"
               initial = {{ y:200,scale:0}}
               animate = {{ y:0,scale:1}} 
               // animate = {{ y:[200,0],scale:[0,1]}} 
